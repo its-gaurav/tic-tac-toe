@@ -11,4 +11,4 @@
 3. after entering each move, sytem will show the game grid updated with your move
 4. if player enters invalid move, he has to re-enter his move.
 5. if player wants to exit the game, he has to type 'exit' and hit enter.
-![tic-tac-toe image](https://drive.google.com/file/d/1vjCm47t-ZXapMwmy-QZOFZBAqzlAXDuo/view?usp=sharing)
+![tic-tac-toe image](/resources/tic-tac-toe.PNG)
