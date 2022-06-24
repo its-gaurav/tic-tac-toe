@@ -48,16 +48,14 @@ public class TicTacToeService {
     private boolean hasWon(Player player, int x, int y) {
         char movePiece = player.getMovePiece(); // X or O
         char[][] board = ticTacToeArena.getBoard();
-        // keeping y fixed, check for all in that column
-        // checking vertical
+        // keeping y fixed, check for all rows in that column y
         boolean colLine = true;
         int boardSize = ticTacToeArena.getBoardSize();
         for(int i=0; i<boardSize; i++){
             colLine = colLine && board[i][y-1] == movePiece;
         }
 
-        // keeping x fixed, check for all in that row
-        // checking vertical
+        // keeping x fixed, check for all columns in that row x
         boolean rowLine = true;
         for(int j=0; j<boardSize; j++){
             rowLine = rowLine && board[x-1][j] == movePiece;
